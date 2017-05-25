@@ -1,10 +1,11 @@
-var element = document.getElementById('app');
-console.log(element);
+(function(exports) {
+  function newsController() {
+  }
 
-function newsController() {
-this.newStories =
-}
+  newsController.prototype.displayNews = function () {
+    var element = document.getElementById("app").innerHTML;
+     element.textContent = "something about milk ";
+  };
 
-newsController.prototype.displayNews = function () {
-  document.getElementById("app") = this.newStories.APIoutput();
-};
+  exports.newsController = newsController;
+})(this);
