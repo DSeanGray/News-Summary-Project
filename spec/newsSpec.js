@@ -3,6 +3,14 @@ describe ('News', function() {
     var news = new News('Test Headline');
     expect(news.headline).toEqual('Test Headline');
   });
+
+  describe('returnNewsHeadline', function(){
+    it('returns a news healdine', function() {
+      var news = new News('Test Headline');
+      expect(news.returnNewsHeadline()).toEqual('Test Headline');
+    });
+  });
+
 });
 
 
