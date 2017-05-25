@@ -1,8 +1,3 @@
-(function(exports) {
-
-  function News(headline) {
+function News(headline) {
   this.headline = headline;
-  }
-
-exports.News = News;
-})(this);
+}
