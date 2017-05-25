@@ -4,9 +4,10 @@
     <!-- <script src="./SpecRunner.html"></script> -->
     <title>News Summary Application</title>
   </head>
-  <body>
-    <div class="app">
-      News Stories Here
+  <body onload="newsController.changeText()">
+    <div id="app">
+      <p>News Stories Here</p>
     </div>
+    <script src="./newsController.js"></script>
   </body>
 </html>
